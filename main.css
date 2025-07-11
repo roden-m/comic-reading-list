@@ -38,6 +38,7 @@ table{
 table,tr, th,td,caption {
     border: 2px solid black;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:0.9rem;
     border-collapse: collapse;
     padding: 0.7rem;
 }
