@@ -1,43 +1,55 @@
-body{background-color:#333;}
+body{
+    background-color:grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 h1{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
     font-size:3rem;
     color:silver;
     text-align:center;
     text-transform:uppercase;
-    text-shadow: 2px 2px 4px black;
-    letter-spacing: 0.2rem;
-    margin-top:5rem;
-    margin-bottom:3rem;
+    text-shadow: 3px 3px 4px black;
+    letter-spacing: 0.5rem;
+    margin:3rem 10rem 2rem 10rem;
+    padding:2rem;
+  
+    
 }
 
 
 .favourites {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    color: silver;
-    text-align: center;
-    list-style: inside;
-    line-height: 0.3rem;
+    margin:3rem;
+    color: black;
+    line-height:1.6rem; 
+    font-size:1.4rem;
+    list-style:none;
+}
 
+
+
+
+.header-cell {
+    background-color:slategray;
 }
 
 h2{
-    color:gray;
-    font-size:1.1rem;
+    color:silver;
+    font-size:2.5rem;
+    text-transform:uppercase;
+    text-shadow:2px 2px 4px black;
 }
 
 table{
-    margin-left:5rem;
-    margin-right:5rem;
+    margin-left:3rem;
+    margin-right:3rem;
     margin-bottom:10rem;
-    background-color:slategrey;
+    background-color:silver;
 }
 
 table,tr, th,td,caption {
     border: 2px solid black;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
     font-size:0.9rem;
     border-collapse: collapse;
     padding: 0.7rem;
@@ -61,28 +73,62 @@ a:hover{
 }
 
 .ten{
-    color:limegreen;
+    background-color:limegreen;
+    text-align:center;
     
 }
 
 .nine{
-    color:yellowgreen;
+    background-color:yellowgreen;
+    text-align:center;
     
 }
 
 .eight{
-    color:gold;
+    background-color:gold;
+    text-align:center;
  
 }
 .seven{
-    color:orange;
+    background-color:orange;
+    text-align:center;
     
 }
 
 .six{
-    color:orangered;
+    background-color:orangered;
+    text-align:center;
    
 }
 
+.dc{
+    background-color:navy;
+    color:whitesmoke;
+    text-align:center;
+}
+
+.marvel {
+    background-color:darkred;
+    color:whitesmoke;
+    text-align:center;
+}
+
+.image {
+    background-color:#333;
+    color:whitesmoke;
+    text-align:center;
+}
+
+.dark-horse {
+    background-color:black;
+    color:whitesmoke;
+    text-align:center;
+}
+
+.comix {
+    background-color:teal;
+    color:whitesmoke;
+    text-align:center;
+}
 
 
